@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Viga&display=swap');
+
+/* CSS RESET JOSH */
+
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+
+  * {
+    margin: 0;
+  }
+ 
+  body {
+
+    line-height: 1.5;
+
+    -webkit-font-smoothing: antialiased;
+    font-family: viga,sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    
+  }
+ 
+  img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+  }
+  
+  input, button, textarea, select {
+    font: inherit;
+
+  }
+  
+  p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+  }
+ 
+  h1, h2, h3, h4, h5, h6 {
+    text-wrap: balance;
+  }
+ 
+ 
+  #root, #__next {
+    isolation: isolate;
+  }
+
+
+ 
+
+body,html  {
+    background-color: #F2EFF6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+
+}
+
+:root{
+    --violet-hue: #e6b1ff;
+    --dark-violet-hue: #BE36FF;
+}
+
+
+
+#header{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+
+
+@font-face{
+font-family: "Asgard";
+src:url(AsgardTrial-FitFat.ttf);
+}
+
+.text{
+    font-family: Asgard, sans-serif;
+    font-size: 1.5em;
+    letter-spacing: 5px;
+}
+
+img{
+    height: 3em;
+    width: auto;
+}
+
+button:hover{
+    background-color: var(--dark-violet-hue);
+    color: white;
+}
+button{
+    border-radius: 20px;
+    background-color: var(--violet-hue);
+    color: var(--dark-violet-hue);
+    border: none;
+    flex: 0 0 auto;
+    cursor: pointer;
+    
+
+}
+
+div.upperdivision{
+    display: flex;
+    margin: 2em 2em;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+div.container{
+    width: 40%; 
+    aspect-ratio: 1/1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 70vmin;
+    max-height: 70vmin;
+
+   
+
+}
+
+.cellStyle{
+    background-color: white;
+    border-radius: 2px;
+    box-shadow: 2px 2px  5px rgba(0, 0, 0, 0.3);
+}

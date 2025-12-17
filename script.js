@@ -1,5 +1,5 @@
-const container = document.querySelector(".container")
-
+const container = document.querySelector(".container");
+let currentGridSize= 16;
 
 container.addEventListener("mouseover", (event) => {
     if (event.target.classList.contains("cellStyle")){

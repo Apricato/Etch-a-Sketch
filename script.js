@@ -34,7 +34,7 @@ function generateCell(cellInput){
             cell.classList.add("cellStyle");
             cell.style.width = `${cellSize}px`;
             cell.style.height = `${cellSize}px`;
-            row.appendChild(cell);
+            row.appendChild(cell)
         }
     }
      

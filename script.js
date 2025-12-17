@@ -47,7 +47,7 @@ function generateCell(cellInput){
 const clickButton = document.querySelector("button")
 clickButton.addEventListener("click", () => {
     const gridSize = prompt ("Enter size of square grid :" , 16);
-    if (gridSize <= 0 &&  gridSize >100 ){
+    if (gridSize <= 0  || gridSize >100 ){
         alert("Please enter a valid number between 1 and 100.");
     } else {
         currentGridSize = gridSize;
